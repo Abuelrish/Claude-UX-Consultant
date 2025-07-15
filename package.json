@@ -1,0 +1,72 @@
+{
+  "name": "claude-ux-consultant",
+  "version": "1.0.0",
+  "description": "🎯 AI-Powered UX Analysis & Testing Tool - Your 24/7 UX Consultant with Claude Code Integration",
+  "main": "src/index.js",
+  "bin": {
+    "claude-ux": "./bin/claude-ux-cli.js"
+  },
+  "scripts": {
+    "install-deps": "npm install",
+    "setup": "node scripts/setup.js",
+    "quick": "node src/orchestrator.js quick",
+    "deep": "node src/orchestrator.js deep",
+    "element": "node src/orchestrator.js element",
+    "monitor": "node src/orchestrator.js monitor",
+    "full-analysis": "node src/full-analysis.js",
+    "demo": "node examples/demo.js",
+    "test": "node tests/test-suite.js",
+    "docs": "node scripts/generate-docs.js"
+  },
+  "keywords": [
+    "ux",
+    "ui",
+    "testing",
+    "accessibility",
+    "performance",
+    "automation",
+    "claude",
+    "ai",
+    "analysis",
+    "playwright",
+    "consultant"
+  ],
+  "author": "Claude UX Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abuelrish/Claude-UX-Consultant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abuelrish/Claude-UX-Consultant/issues"
+  },
+  "homepage": "https://github.com/Abuelrish/Claude-UX-Consultant#readme",
+  "dependencies": {
+    "playwright": "^1.54.1",
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "fs-extra": "^11.1.1",
+    "lodash": "^4.17.21",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "@types/node": "^20.4.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "scripts/",
+    "examples/",
+    "templates/",
+    "docs/",
+    "CLAUDE.md",
+    "README.md",
+    "LICENSE"
+  ]
+}
