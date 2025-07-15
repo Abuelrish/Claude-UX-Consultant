@@ -318,6 +318,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ by the Claude UX Team**
-
 *Automatically analyze, monitor, and improve your web applications' user experience with AI-powered insights.*
