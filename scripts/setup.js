@@ -185,7 +185,7 @@ jobs:
         
     - name: Run UX Analysis
       run: |
-        claude-ux quick ${{ secrets.STAGING_URL }} --format json --output ./reports
+        claude-ux quick \${{ secrets.STAGING_URL }} --format json --output ./reports
         
     - name: Upload Reports
       uses: actions/upload-artifact@v3
